@@ -2,3 +2,8 @@ transformers==4.35.2
 jupyterlab==4.0.9
 pillow==10.1.0
 torch==2.1.1
+torchvision==0.16.1
+diffusers==0.23.1
+invisible-watermark==0.2.0
+accelerate==0.24.1
+safetensors==0.4.1
