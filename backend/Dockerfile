@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.11
 
 WORKDIR /app
 
@@ -8,4 +8,4 @@ RUN python -m pip install -r requirements.txt
 
 COPY . /app
 
-CMD ["flask", "run", "--host=0.0.0.0"]
+CMD ["flask", "run", "--port=5180", "--host=0.0.0.0"]
